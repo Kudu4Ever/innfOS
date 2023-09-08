@@ -1,0 +1,4 @@
+Oppgave1: 
+a.Nevn en fordel og en ulempe ved å ha et interaktivt grafisk grensesnitt (GUI) for å bruke operativsystemet?
+  fordel : 
+  1- 

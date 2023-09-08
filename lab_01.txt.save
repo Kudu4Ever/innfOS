@@ -1,0 +1,39 @@
+oppgave1:
+a- Nevn en fordel og en ulempe ved å ha et interaktivt grafisk grensesnitt (GUI) for å bruke operativsystemet?
+ 	fordel: 
+   	1- fint og vakker desing som gjøre brukere vant med enhetene sine. 
+	2- Masse shortcut knepper som hjelpe brukere.
+  	ulempe:
+   	1- Mye kostnad å utvikle. 
+   	2- Tar tid til å utvikle det
+ 	
+
+b- Nevn en fordel og en ulempe ved å ha et interaktivt kommandolinjebasert grensesnitt (CLI/shell)
+   for å bruke operativsystemet?
+   	fordel:
+   	1- den passer mye for de som liker å bruke tataturet, i tillegg til at det er mer efektiv.
+	ulempe:
+	2- Det blir litt tunget for bruker å lære det raskt eller huske alle kommander på en annen måte det
+	   er opp til person om hvordan kan bli kjent med kommander.
+Oppgave2:
+a.Anta at du i stående katalog har en underkatalog som heter søppel. Inne i denne underkatalogen kan det
+ ligge tusenvis av filer og andre kataloger (med underkataloger etc.)som er uten verdi og bare skal slettes.
+ Skriv en Linux-kommando som fjerner alt innhold i katalogen søppel og i alle dens underkataloger.
+	svar:
+	ls
+	cd trash
+	ls
+	rm -r trash
+b.Skriv en Linux-kommande (sammensatt av enkeltkommandoer med en "pipe" i mellom) som lagrer de 100 første
+  linjene i manualsidene for kommandoen find på en fil som heter find_100.man?
+	svar:
+	
+
+Oppgave3:
+	a.ls: for å lese navnet på  alle filer som ligger på pc eller i serveren.
+	b.cat file1 file2 file3 file4: cat vise oss alle innholdet av filene, med grep cat til å finne en spesifik ordet 
+	
+    
+
+   
+
