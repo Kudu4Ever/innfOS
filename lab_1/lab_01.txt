@@ -1,0 +1,53 @@
+oppgave1:
+
+a- Nevn en fordel og en ulempe ved å ha et interaktivt grafisk grensesnitt (GUI) for å bruke operativsystemet?
+ 	fordel: 
+   	1- fint og vakker desing som gjøre brukere vant med enhetene sine. 
+	2- Masse shortcut knepper som hjelpe brukere.
+  	ulempe:
+   	1- Mye kostnad å utvikle. 
+   	2- Tar tid til å utvikle det
+ 	
+
+b- Nevn en fordel og en ulempe ved å ha et interaktivt kommandolinjebasert grensesnitt (CLI/shell)
+   for å bruke operativsystemet?
+   	fordel:
+   	1- den passer mye for de som liker å bruke tastaturet, i tillegg til at det er mer efektiv.
+	ulempe:
+	2- Det blir litt tunget for bruker å lære det raskt eller huske alle kommandoer på en annen måte det
+	   er opp til person om hvordan kan bli kjent med kommandoer.
+Oppgave2:
+a.Anta at du i stående katalog har en underkatalog som heter søppel. Inne i denne underkatalogen kan det
+ ligge tusenvis av filer og andre kataloger (med underkataloger etc.)som er uten verdi og bare skal slettes.
+ Skriv en Linux-kommando som fjerner alt innhold i katalogen søppel og i alle dens underkataloger.
+	svar:
+	ls
+	rm -r trash
+b. Skriv en Linux-kommande (sammensatt av enkeltkommandoer med en "pipe" i mellom) som lagrer de 100 første 
+   linjene i manualsidene for kommandoen find på en fil som heter find_100.man?
+	svar: man find | head -n 100 >find_100.man
+	
+Oppgave3:
+	a.$ ls ~ vise oss liste med info om filene på en anne måte vise mappe som vi har (navnet mappe)
+	b.$ cat file1 file2 file3 file4 | grep cat, svar: påne file og vise oss hva innholder filene.
+	c.$ who | wc -l svar: | å bruke resultat av forigge kommando i ny kommando, så det betyr at who
+	 finner påloggede brukere,med sender vi videre til wc som teller linjer i resultatet av who.
+	d.$ ls -ld h* : svar: ls vise oss den liste filer l det er som opsjon så denne vise oss generelt
+	    informasjonene om filene, h* her vi ser at vise oss de mappene eller filer som beygynner med h bokstav
+	e.$ alias harakiri="rm -rf *" (NB! Ikke kjør denne kommandoen!)
+	  svar: alias det er alias som vi vet for eksempel mitt navn er Majed og minn alias name er memo på
+		alias man kan bruke til å opprette en kommando eller på en annen måte alias er en variable som
+		 kan ha verdi, kommando kan være enkel eller komplex, så harakiri det er et navn etter det = vi gi
+		kommand som rm-rf rm betyar delete eller fjerne mapper. r bokstav betyr for rekursiv sletting
+		f betyr å tvunge sletting uten bekreftelse, dette er faktisk farlig at man å bruke det uten 
+		forstålelse, fordi den konskvenser av det å slette alle filer og mappene, pluss innholder for ever
+	f.$ cat < kapittel_1.txt | tee kapittel_1.txt.backup | lpr
+	  svar: åpne filer og vise oss hva innholder av file < for å lese innholdet av filer, tee for å ta copy 
+		av innholdet (kapittel_1.txt) til (kapittel_1.txt.backup) som sikkerhetkskopi og denn siste
+		| lpr sender innholdet til printer maskin til å utskrif.   
+		
+	
+    
+
+   
+
